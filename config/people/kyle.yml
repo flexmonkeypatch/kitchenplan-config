@@ -1,20 +1,12 @@
 recipes:
     global:
         - applications::bash
-        - applications::sass
         - applications::ssh_config
-        - applications::composer
         - applications::mysql
-        - dotfiles::bash_it
-        - dotfiles::inputrc
-        - dotfiles::gitconfig
-        - dotfiles::workspace
-        - dotfiles::vim
     mac_os_x:
         - osxdefaults::set_computer_name
         - osxdefaults::menu_add_battery_percentage
         - osxdefaults::menu_show_clock_with_date
-        - osxdefaults::set_computer_name
         - osxdefaults::set_terminal_profile
         - osxdefaults::disable_natural_scrolling
 attributes:
@@ -23,37 +15,23 @@ attributes:
         computername: airK
     homebrewalt:
         apps:
-            - git
-            - git-extras
             - bash-completion
             - wget
             - pwgen
             - htop-osx
-            - git-flow
             - watch
             - rsync
         cask_apps:
-            - sourcetree
             - dropbox
             - onepassword
             - textwrangler
             - intellij-idea-ultimate
-            - skype
+            - sourcetree
             - charles
             - cleanmymac
+            - skype
             - twitter
             - google-hangouts
-            - handbrake
             - growlnotify
-            - bartender
             - flash
             - java
-    nodejs:
-        apps:
-            - uglify-js
-            - uglifycss
-            - bower
-            - grunt
-            - grunt-cli
-    gems:
-        - sass
