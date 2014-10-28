@@ -6,17 +6,31 @@ recipes:
         - applications::ssh_config
         - applications::mysql
     mac_os_x:
+    - sudoalt::default
         - osxdefaults::set_computer_name
         - osxdefaults::menu_add_battery_percentage
         - osxdefaults::menu_show_clock_with_date
         - osxdefaults::set_terminal_profile
         - osxdefaults::disable_natural_scrolling
+        
 attributes:
     mysql_root_password: "password"
     osxdefaults:
         computername: airK
+    git:
+        name: Kyle Quevillon
+        email: flexmonkeypatches@gmail.com
+    authorization:
+        sudo:
+            users:
+                - kyle
+            passwordless: true
+            include_sudoers_d: true     
+
     homebrewalt:
         apps:
+            - ant
+            - tomcat
             - bash-completion
             - wget
             - pwgen
