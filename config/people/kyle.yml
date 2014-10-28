@@ -34,6 +34,13 @@ attributes:
             - rsync
         cask_apps:
             - sourcetree
+            - dropbox
+            - 1Password
+            - textwrangler
+            - intellij-idea-ultimate
+            - skype
+            - flash
+            - java
     nodejs:
         apps:
             - uglify-js
