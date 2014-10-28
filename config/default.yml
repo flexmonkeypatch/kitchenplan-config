@@ -54,4 +54,5 @@ attributes:
             - firefox
         cask_fonts:   
             - inconsolata
+            - font-source-code-pro
     
