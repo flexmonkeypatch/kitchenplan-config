@@ -1,3 +1,5 @@
+groups:
+
 recipes:
     global:
         - applications::bash
