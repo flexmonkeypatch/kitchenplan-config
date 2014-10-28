@@ -35,7 +35,7 @@ attributes:
         cask_apps:
             - sourcetree
             - dropbox
-            - 1Password
+            - onepassword
             - textwrangler
             - intellij-idea-ultimate
             - skype
@@ -44,6 +44,8 @@ attributes:
             - twitter
             - google-hangouts
             - handbrake
+            - growlnotify
+            - bartender
             - flash
             - java
     nodejs:
