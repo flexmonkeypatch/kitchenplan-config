@@ -1,0 +1,8 @@
+attributes:
+    nodejs:
+        apps:
+            - uglify-js
+            - uglifycss
+            - bower
+            - grunt
+            - grunt-cli
