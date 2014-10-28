@@ -1,9 +1,12 @@
 recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
     global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
         - applications::create_var_chef_cache
+        
+
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
+
         - osxdefaults::disable_auto-correct
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         
@@ -15,9 +18,7 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::save_screenshots_to_the_desktop
         
         - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
-        - disable_front_row
-        - disable_natural_scrolling
-        
+        - osxdefaults::disable_front_row
         - osxdefaults::enable_safari_debug_menu
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::disable_disk_image_verification
@@ -42,21 +43,15 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::finder_show_all_files
         - osxdefaults::finder_show_status_bar.rb
         - osxdefaults::finder_small_sidebar_icon_size
-        
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
-        
-        - osxdefaults::menu_add_battery_percentage
-        - osxdefaults::menu_show_clock_with_date
-        - osxdefaults::set_computer_name
-        
+
 attributes:
     homebrewalt:
         apps:
             - git
         cask_apps:
             - google-chrome
+            - firefox
         cask_fonts:   
             - inconsolata
-    nodejs:
-        apps:
-            - bower
+    
