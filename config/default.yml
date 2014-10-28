@@ -37,7 +37,7 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_unhide_home
         - osxdefaults::finder_show_all_files
-        - osxdefaults::finder_show_status_bar.rb
+#        - osxdefaults::finder_show_status_bar.rb
         - osxdefaults::finder_small_sidebar_icon_size
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
 
