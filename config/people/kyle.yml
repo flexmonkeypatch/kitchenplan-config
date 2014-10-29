@@ -2,7 +2,6 @@ groups:
 
 recipes:
     global:
-        - applications::bash
         - applications::ssh_config
         - applications::mysql
     mac_os_x:
