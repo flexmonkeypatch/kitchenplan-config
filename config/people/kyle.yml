@@ -6,7 +6,7 @@ recipes:
         - applications::ssh_config
         - applications::mysql
     mac_os_x:
-    - sudoalt::default
+        - sudoalt::default
         - osxdefaults::set_computer_name
         - osxdefaults::check_for_software_updates_daily
         - osxdefaults::menu_add_battery_percentage
