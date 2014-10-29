@@ -5,8 +5,6 @@ recipes:                                       # Configs are parsed and every li
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
 
-        - osxdefaults::disable_auto-correct
-        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
@@ -15,12 +13,14 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::save_screenshots_to_the_desktop
         - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
         - osxdefaults::disable_front_row
-        - osxdefaults::enable_safari_debug_menu
-        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::disable_disk_image_verification
-        - osxdefaults::disable_front_row
+        - osxdefaults::disable_auto-correct
+        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
+        - osxdefaults::enable_safari_debug_menu
         - osxdefaults::enable_assistive_devices
         - osxdefaults::enable_full_keyboard_access_for_all_controls
+        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+
         - osxdefaults::increase_window_resize_speed_for_cocoa_applications
         - osxdefaults::speed_up_mission_control_animations
         - osxdefaults::tap_to_click
@@ -37,7 +37,6 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_unhide_home
         - osxdefaults::finder_show_all_files
-#        - osxdefaults::finder_show_status_bar.rb
         - osxdefaults::finder_small_sidebar_icon_size
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
 
