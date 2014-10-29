@@ -30,7 +30,7 @@ attributes:
     homebrewalt:
         apps:
             - ant
-            - homebrew/versions/tomcat7
+            - tomcat7
             - bash-completion
             - wget
             - pwgen
