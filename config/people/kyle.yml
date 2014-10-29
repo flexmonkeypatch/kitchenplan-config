@@ -60,7 +60,7 @@ attributes:
             - cleanmymac
             - timemachineeditor
             - skype
-            - google-hangouts
+#            - google-hangouts
             - growlnotify
             - teleport
             - flash
