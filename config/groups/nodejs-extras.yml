@@ -6,3 +6,18 @@ attributes:
             - bower
             - grunt
             - grunt-cli
+            - karma
+            - karma-cli
+            - karma-jasmine
+            - karma-sinon
+            - karma-coverage
+            - karma-requirejs
+            - karma-html-reporter
+            - karma-phantomjs-launcher
+            - karma-chrome-launcher
+            - karma-firefox-launcher
+            - karma-safari-launcher
+            - karma-ie-launcher
+            - protractor
+            - protractor-html-screenshot-reporter
+            - underscore
