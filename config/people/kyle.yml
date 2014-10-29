@@ -63,5 +63,6 @@ attributes:
             - skype
             - google-hangouts
             - growlnotify
+            - teleport
             - flash
             - java7
