@@ -2,8 +2,8 @@ recipes:
     global:
         - dotfiles::bash_it
         - dotfiles::inputrc
-#        - dotfiles::gitconfig
-#        - dotfiles::workspace
+        - dotfiles::gitconfig
+        - dotfiles::workspace
         - dotfiles::vim
         - dotfiles::sshconfig
         - applications::bash
