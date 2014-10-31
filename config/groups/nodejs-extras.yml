@@ -1,7 +1,7 @@
 
 recipes:
     mac_os_x:
-        - nodejs::default      
+        - nodejs::default    # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute   
 attributes:
     nodejs:
         apps:
