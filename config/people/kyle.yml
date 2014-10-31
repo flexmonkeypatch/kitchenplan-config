@@ -44,7 +44,6 @@ attributes:
         apps:
             - ant
             - tomcat
-            - bash-completion
             - wget
             - pwgen
             - htop-osx
