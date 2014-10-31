@@ -1,5 +1,6 @@
 groups:
-
+    - bash
+    - nodejs-extras
 recipes:
     global:
         - applications::ssh_config
