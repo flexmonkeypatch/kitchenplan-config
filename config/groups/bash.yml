@@ -6,6 +6,7 @@ recipes:
 #        - dotfiles::workspace
         - dotfiles::vim
         - dotfiles::sshconfig
+        - applications::bash
 attributes:
     homebrewalt:
         apps:
