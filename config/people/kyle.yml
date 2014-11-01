@@ -28,7 +28,7 @@ attributes:
             - pwgen
             - htop-osx
             - watch
-            - rsync
+#            - rsync
         cask_apps:
             - dropbox
             - onepassword
