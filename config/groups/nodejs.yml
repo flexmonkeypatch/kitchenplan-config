@@ -11,7 +11,7 @@ attributes:
             - grunt-cli
             - karma
             - karma-cli
-            - karma-jasmine
+            - karma-jasmine@0.1.5
             - karma-sinon
             - karma-coverage
             - karma-requirejs
