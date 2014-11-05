@@ -25,3 +25,4 @@ attributes:
             - protractor-html-screenshot-reporter
             - underscore
             - less
+            - lessc
