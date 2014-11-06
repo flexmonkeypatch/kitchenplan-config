@@ -43,4 +43,5 @@ attributes:
             - growlnotify
             - teleport
             - flash
+            - flash-player-debugger
             - java7
